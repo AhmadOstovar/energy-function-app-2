@@ -33,7 +33,7 @@ jobs:
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          VITE_PRODUCTION_URL = "https://afry-energy-copilot.azurewebsites.net/api/energy_copilot_test"
+          VITE_PRODUCTION_URL : "https://afry-energy-copilot.azurewebsites.net/api/energy_copilot_test"
             
 
   close_pull_request_job:
